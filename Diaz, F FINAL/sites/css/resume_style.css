@@ -1,0 +1,107 @@
+body {
+    background-image: url(../images/background.jpg);
+    text-align: center;
+    margin: auto;
+    font: 12px/1.5em "Trebuchet MS", Verdana, Arial, sans-serif;
+}
+
+@font-face {
+    font-family: arcadeclassic;
+    src: url(fonts/arcadeclassic/arcadeclassic.ttf);
+}
+
+@font-face {
+    font-family: droidsansmono;
+    src: url(fonts/droidsansmono/droidsansmono.ttf);
+}
+
+@font-face {
+    font-family: minecraftia;
+    src: url(fonts/minecraftia/minecraftia.ttf);
+}
+
+#main {
+    background-color: #FFFFFF;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-color: cyan;
+    height: 1750px;
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+}
+
+#menu ul {
+    background-color: cornflowerblue;
+    height: 50px;
+    float: right;
+}
+
+#menu ul li {
+    font-family: minecraftia;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 50px;
+    color: darkslateblue;
+    display: inline;
+    margin: 0px 20px;
+}
+
+#menu ul li a {
+    color: darkslateblue;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    color: cyan;
+}
+
+#content {
+    width: 390px;
+    margin-left: 10px;
+    padding: 50px 150px 50px 150px;    
+}
+
+h1 {
+    padding: 5px 30px 5px 30px;
+    text-align: center;
+    font-family: Georgia, Times New Roman, serif;
+    color: darkslateblue;
+    font-weight: bolder;
+    font-size: 30px;
+}
+    
+h2 {
+    font-family: arcadeclassic;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 35px;
+    text-indent: 5px;
+    color: darkslateblue;
+    margin-top: 0px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    letter-spacing: 2px;
+}
+
+
+p { 
+    font-size: 15px;
+    font-family: droidsansmono, monospace;
+    text-align: center;
+    font-weight: normal;
+    line-height: 20px;
+    color: black;
+    padding: 3px 10px 3px 10px;
+}
+
+#image {
+    display: block;
+    margin-left: 1px;
+    margin-right: 1px;
+}
